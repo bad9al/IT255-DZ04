@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<title>IT</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+    height: 100%;
+    font-family: "Inconsolata", sans-serif;
+}
+.bgimg {
+    background-position: center;
+    background-size: cover;
+    background-image: url("slike/back.jpeg");
+    min-height: 75%;
+}
+.menu {
+    display: none;
+}
+</style>
+<body>
+
+<!-- GLAVNi LINKOVI(na pocetnoj liniji)-->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-black">POCETNA</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-black">O NAMA</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#menu" class="w3-button w3-block w3-black">USLUGE</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#where" class="w3-button w3-block w3-black">KONTAKT</a>
+    </div>
+	<div>
+      <a href="#demo" class="w3-button w3-block w3-black">DEMO</a>
+    </div>
+  </div>
+</div>
+
+
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">Where your wishes come true</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+   <b> <span class="w3-text-black" style="font-size:90px">NC3324</span></b>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white">Cara Dusana 61, Belgrade</span>
+  </div>
+</header>
+
+
+<div class="w3-sand w3-whitescale w3-large">
+
+
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">O NAMA</span></h5>
+    <p>Nasa firma je nova i rastuca u oblasti IT. Nalazimo se u centru Beograda. Iako smo nova firma na trzistu, nismo novi u poslu kojim se bavimo.</p>
+    <p>Nas tim je mali, ali vredan i pun iskustva. Spremni smo da realizujemo svaku Vasu ideju.</p>
+   
+   <p><strong>Nas tim</strong></p>
+   <a href="http://www.rihannanow.com/"style="width:100%;max-width:90px" class="w3-margin-top">
+    <img src="slike/riri.jpeg" style="width:150%;max-width:150px" class="w3-margin-top">
+   </a>
+   
+   <a href="https://www.hernameisbanks.com/"style="width:100%;max-width:90px" class="w3-margin-top">
+    <img src="slike/banks.jpeg" style="width:150%;max-width:150px" class="w3-margin-top">
+   </a>
+   
+   <a href="https://www.theweeknd.com/"style="width:100%;max-width:90px" class="w3-margin-top">
+    <img src="slike/wknd.jpeg" style="width:150%;max-width:150px" class="w3-margin-top">
+   </a>
+   
+   <a href="https://brentfaiyaz.com/"style="width:100%;max-width:90px" class="w3-margin-top">
+    <img src="slike/brent.jpeg" style="width:150%;max-width:150px" class="w3-margin-top">
+   </a>
+   
+   <br>
+  </div>
+</div>
+<hr>
+
+<div class="w3-container" id="menu">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Usluge</span></h5>
+  
+    <div class="w3-row w3-center w3-card w3-padding">
+	
+      <a href="javascript:void(0)" onclick="openMenu(event, 'web ');" id="myLink"> <!--on click -->
+        <div class="w3-col s6 tablink">web </div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'mobile apps');">
+        <div class="w3-col s6 tablink">mobile apps</div>
+      </a>
+    </div>
+
+    <div id="web " class="w3-container menu w3-padding-48 w3-card">
+      <h5>Kreiranje sajtova</h5>
+      <p class="w3-text-grey">Kreiramo sajt kakav ste oduvek zeleli</p><br>
+    
+      <h5>Redizajniranje sajtova</h5>
+      <p class="w3-text-grey">Ispravljamo greske vaseg starog sajta ili kreiramo potpuno novi izgled</p><br>
+    
+      <h5>Odrzavanje</h5>
+      <p class="w3-text-grey">Redovno azuriramo vas sajt</p><br>
+    
+      <h5>Upravljanje</h5>
+      <p class="w3-text-grey">Svakodnevno ili po dogovoru menjamo sajt po vasoj zelji</p><br>
+    
+      
+    </div>
+
+    <div id="mobile apps" class="w3-container menu w3-padding-48 w3-card">
+      <h5>Android</h5>
+      <p class="w3-text-grey">Kreiramo Android aplikacije</p><br>
+    
+      <h5>iOS</h5>
+      <p class="w3-text-grey">Kreiramo iOS aplikacije</p><br>
+    
+      <h5>Windows</h5>
+      <p class="w3-text-grey">Kreiramo Windows aplikacije</p><br>
+    
+      <h5>Blackberry</h5>
+      <p class="w3-text-grey">Kreiramo Blackberry aplikacije</p><br>
+    
+      
+    </div>
+	<a href="https://www.android.com/">
+    <img src="slike/and.png" style="width:100%;max-width:100px;margin-top:32px;">
+	</a>
+	
+	<a href="https://www.apple.com/ios/ios-11/">
+    <img src="slike/apl.png" style="width:100%;max-width:100px;margin-top:32px;">
+	</a>
+	
+	<a href="https://www.microsoft.com/en-us/windows/">
+    <img src="slike/win.png" style="width:100%;max-width:100px;margin-top:32px;">
+	</a>
+	
+	<a href="https://us.blackberry.com/smartphones">
+    <img src="slike/bla.png" style="width:100%;max-width:100px;margin-top:32px;">
+	</a>
+<br>
+<b>Klikom na ove slike mozete posetiti stranice nasih partnera</b>
+	
+  </div>
+  
+</div>
+
+<hr>
+
+<!-- Contact/Area Container -->
+<div class="w3-container" id="where" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Gde se nalazimo</span></h5>
+    <p>Nasa adresa je Cara Dusana 61, Belgrade.</p>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3389.8992143347355!2d20.464304698577664!3d44.82061866419621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7ab432c7c571%3A0x16b28e9058064387!2z0KbQsNGA0LAg0JTRg9GI0LDQvdCwIDYxLCDQkdC10L7Qs9GA0LDQtCAxMTAwMA!5e0!3m2!1ssr!2srs!4v1515454356156" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    
+	<hr>
+	
+    <p><span class="w3-tag">Kontaktirajte nas!</span>
+	
+    <p><strong>Radno vreme:</strong> pon-pet od: 10h do 18h.</p>
+    <p><strong>Telefon:</strong> +381171717171</p>
+	<p><strong>Adresa:</strong> Cara Dusana 61, Belgrade</p>
+	<hr>
+	Niste pronasli uslugu koja Vas interesuje? Imate dodatana pitanja? Slobodno nam pisite, a mi cemo se potruditi da Vam odgovorimo u sto kracem roku:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Ime i Prezime" style="text-transform: capitalize;" required name="Ime"></p> <!--pocetna slova su velika-->
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Naslov poruke" required name="naslov"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="number" min="0" max="9" placeholder="Broj Telefona" required name="broj"></p>     <!--samo brojevi-->
+      <p><input class="w3-input w3-padding-16 w3-border" type="text area" maxlength=100 placeholder="Vasa poruka" required name="Message"></p>  <!--max duzina 100-->
+      <p><button class="w3-button w3-black" type="submit">Posalji poruku</button></p>
+    </form>
+  </div>
+</div>
+
+
+<div class="w3-container" id="demo">
+  <div class="w3-content" style="max-width:700px">
+  <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Demo</span></h5>
+  
+  <img src="slike/cod.gif" style="width:650%;max-width:650px" class="w3-margin-top">
+  <br>
+
+</div>
+
+
+<div>
+<b> <h4>PROMO kod</h4></b>
+<input type="text" class="textfield" value="" id="extra7" name="extra7" onkeypress="return isNumber(event)" />
+ <input type="submit" value="kod">
+<script >
+function isNumber(evt) {
+    evt = (evt) ? evt : window.event;
+    var charCode = (evt.which) ? evt.which : evt.keyCode;
+    if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+        return false;
+    }
+    return true;
+}
+</script>
+</div>
+
+  
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  powered by: Nina Cojic 3324	<br>		
+
+  
+
+</footer>
+
+<!-- Add Google Maps -->
+<script>
+
+
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+
+</body>
+</html>
